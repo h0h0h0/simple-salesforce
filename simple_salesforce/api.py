@@ -1077,7 +1077,6 @@ class SFType:
         result = self._call_salesforce(
             method='GET',
             url=url,
-            name="listview_results",
             headers=headers,
             **kwargs
             )
@@ -1113,7 +1112,6 @@ class SFType:
         result = self._call_salesforce(
             method='GET',
             url=url,
-            name="listview_describe",
             headers=headers,
             **kwargs
             )
@@ -1149,7 +1147,6 @@ class SFType:
         result = self._call_salesforce(
             method='GET',
             url=url,
-            name="listview_basicinfo",
             headers=headers,
             **kwargs
             )
